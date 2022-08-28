@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Владимир, cv, resume">
+    <meta name="description" content="Это сайт резюме Владмира Каленова">
+    <link rel="stylesheet" href="01_styles.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="lists.css">
+    <link rel="stylesheet" href="display.css">
+    <title>My resume</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="info">
+            <img src="мое фото.jpg" alt="Владимир Каленов" class="avatar">
+            <div class="info-text">
+                <h1>Владимир Каленов</h1>
+                
+                <p>Я прохожу курс html & css от школы <strong>result school</strong></p>
+                
+                <p>Сейчас я работаю <strong>инженером</strong>, но хочу стать web-разработчиком</p>
+            </div>
+            <h4>Мои соц. сети</h4>
+            <!--Ссылки  -->
+            <a href="https://vk.com/aay574"target="_blank">VK</a>
+            |
+            <a href="https://t.me/yyeerr99"target="_blank">telegram</a>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Опыт работы:</h2>
+            <!-- Таблицы -->
+            <table class="table">
+                <thead>
+                    <tr></tr>
+                        <th>Место работы</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Сушибокс</td>
+                        <td>Курьер</td>
+                        <td>07.2018-10.2019</td>
+                    </tr>
+                    <tr>
+                        <td>Сушибокс</td>
+                        <td>Повар-сушист</td>
+                        <td>10.2019-07.2020</td>
+                    </tr>
+                    <tr>
+                        <td>Сушибокс</td>
+                        <td>Су-шеф</td>
+                        <td>07.2020-11.2020</td>
+                    </tr>
+                    <tr>
+                        <td>Сушибокс</td>
+                        <td>И.О. шефа - шеф</td>
+                        <td>11.2020-05.2021</td>
+                    </tr>
+                    <tr>
+                        <td>АО "АэроКомпозит-Ульяновск</td>
+                        <td>Инженер-технолог 3 кат.</td>
+                        <td>05.2021-04.2022</td>
+                    </tr>
+                    <tr>
+                        <td>АО "АэроКомпозит-Ульяновск</td>
+                        <td>Инженер-технолог 2 кат.</td>
+                        <td>04.2022-н.в.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-red" class="list">
+            <h2>Моя деятельность:</h2>
+            <ul>
+                <li>Работа над МС-21</li>
+                <li>Работа над CR-929</li>
+                <li>Учеба(магистратура)</li>
+                <li><strong>Строю корч</strong><em><span class="color">(нет)</span></em></li>
+            </ul>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Мое образование:</h2>
+                <ol>
+                    <li>Шк 68 2005-2009</li>
+                    <li>Шк 63 2009-2016</li>
+                    <li>УлГТУ материаловедение и технологии композитных материалов (бакалавриат) 2016-2021</li>
+                    <li>ИАТУ (УлГТУ) материаловедение и технологии композитных материалов (магистратура) 2021-2023</li>
+                </ol>
+        </div>
+        <div class="card">
+            
+            <!-- Формы -->
+            <form action="/" class="form">
+                <h2>Связаться со мной</h2>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Введите имя">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Ваше email:</label>
+                            <input type="email" id="email" placeholder="Введите email">
+                        </div>
+                    </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение</label>
+                    <!-- <br> -->
+                    <textarea id="message" cols="73" rows="6" placeholder="=)"></textarea>
+                </div>
+                <div >
+                    <input type="submit" value="Отправить" class="btn">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* Шрифт с google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1ff;
+    color: #000;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+.avatar{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(7, 8, 62, 0.25);
+}
+.info {
+    margin-bottom: 20px;
+    
+
+}
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+@media (max-width: 650px){
+   .info {
+    display: block;
+    text-align: center;
+   } 
+}
+
+.card {
+    
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.bg-blue {
+    background: #8888ff;
+}
+.bg-red {
+    background: #993333;
+}
+.bg-green {
+    background: #448844;
+}
